@@ -7,7 +7,7 @@
 %define	pdir	Danga
 %define	pnam	Socket
 Summary:	Danga::Socket - Event loop and event-driven async socket base class
-#Summary(pl.UTF-8):	
+Summary(pl.UTF-8):	Danga::Socket - pętla zdarzeń i klasa podstawowa gniazd asynchronicznych
 Name:		perl-Danga-Socket
 Version:	1.57
 Release:	1
@@ -28,11 +28,15 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This is an abstract base class for objects backed by a socket which
 provides the basic framework for event-driven asynchronous IO,
-designed to be fast.  Danga::Socket is both a base class for objects,
+designed to be fast. Danga::Socket is both a base class for objects,
 and an event loop.
 
-# %description -l pl.UTF-8
-# TODO
+%description -l pl.UTF-8
+Ten moduł jest abstrakcyjną klasą bazową dla obiektów opartych na
+gniazdach. Udostępnia podstawowy szkielet asynchronicznego we/wy
+sterowanego zdarzeniami, zaprojektowany z myślą o szybkości.
+Danga::Socket jest zarówno klasą bazową dla obiektów, jak i pętlą
+zdarzeń.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
