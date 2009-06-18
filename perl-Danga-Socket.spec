@@ -9,13 +9,13 @@
 Summary:	Danga::Socket - Event loop and event-driven async socket base class
 Summary(pl.UTF-8):	Danga::Socket - pętla zdarzeń i klasa podstawowa gniazd asynchronicznych
 Name:		perl-Danga-Socket
-Version:	1.57
+Version:	1.61
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Danga/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	094386c6ada4d8f4be40691897061f79
+# Source0-md5:	dc8f481b35172a090b977f3dea7fa24a
 URL:		http://search.cpan.org/dist/Danga-Socket/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
